@@ -1,0 +1,104 @@
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background-color: rgb(255, 230, 239);
+    padding: 30px;
+}
+
+h2 {
+    color: rgb(102, 0, 102);
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+form {
+    background-color: rgb(255, 245, 250);
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 35px;
+    box-shadow: 0 0 8px rgba(255, 105, 180, 0.2);
+}
+
+input[type=text],
+input[type=email],
+input[type=date] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid rgb(240, 180, 200);
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: rgb(255, 250, 253);
+}
+
+input[type=radio],
+input[type=checkbox] {
+    margin: 8px 6px 8px 0;
+    accent-color: rgb(255, 105, 180);
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+input[type=submit],
+input[type=reset] {
+    background-color: rgb(255, 140, 170);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 140px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input[type=reset] {
+    background-color: rgb(185, 145, 190);
+}
+
+input[type=submit]:hover {
+    background-color: rgb(255, 100, 150);
+    box-shadow: 0 0 10px rgba(255, 182, 193, 0.6);
+}
+
+input[type=reset]:hover {
+    background-color: rgb(160, 120, 170);
+    box-shadow: 0 0 10px rgba(220, 190, 220, 0.6);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 182, 193);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(200, 100, 150, 0.3);
+}
+
+ul li {
+    float: left;
+    margin-bottom: 10px;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    font-size: 18px;
+    transition: color 0.3s ease, background 0.3s ease;
+}
+
+ul a:hover {
+    background-color: rgb(255, 105, 180);
+    color: white;
+    border-radius: 5px;
+}
